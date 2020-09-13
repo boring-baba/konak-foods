@@ -34,8 +34,8 @@ a {
   }
 
 .text-black {
-  color: #000; }
-
+  color: #000;
+}
 .site-wrap:before {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
@@ -774,6 +774,7 @@ color: #777777;}
 }
 .site-blocks-cover{
   background-image: url(../img/banner-bg.png);
+ 
 }
 
 @media (max-width: 480px) {
@@ -787,7 +788,11 @@ color: #777777;}
   } 
   
   .full-bg-image{
-    padding-top: 150px!important;
+    position: absolute;
+    top:50%;
+    left: 0%;
+    text-align: center!important;
+    -webkit-transform:translate(0%, -50%);
   }
 
   .site-blocks-cover{
