@@ -772,7 +772,9 @@ color: #777777;}
     transform: translateY(-15px);
   }
 }
-
+.site-blocks-cover{
+  background-image: url(../img/banner-bg.png);
+}
 
 @media (max-width: 480px) {
 
@@ -786,5 +788,9 @@ color: #777777;}
   
   .full-bg-image{
     padding-top: 150px!important;
+  }
+
+  .site-blocks-cover{
+    background-image: url(../img/mobile-konak-bg.png);
   }
   }
