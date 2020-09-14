@@ -797,3 +797,12 @@ color: #777777;}
     background-image: url(../img/mobile-konak-bg.png);
   }
   }
+
+  .block-4-text a{
+    color:#346833;
+  }
+
+  .product-heading{
+    color:#346833!important;
+    font-weight: 600;
+  }
