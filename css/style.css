@@ -781,7 +781,7 @@ color: #777777;}
     font-size: 24px; 
   } 
   .site-blocks-cover p {
-    font-size: 16px; 
+    font-size: 14px; 
     line-height: 1.6;
   } 
   
@@ -796,6 +796,10 @@ color: #777777;}
   .site-blocks-cover{
     background-image: url(../img/mobile-konak-bg.png);
   }
+  .arrow {
+    display: none;
+  }
+
   }
 
   .block-4-text a{
